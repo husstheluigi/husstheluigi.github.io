@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contentl h1{
+    position: absolute;
+    color: #fff;
+    font-family: sans-serif;
+    width: 100%;
+    text-align: center;
+    animation: downRight 5s ease-in forwards;
+    top: 300;
+}
+@keyframes downRight {
+    0% {
+        content: '';
+    }
+    100% {
+        content: 'Click here to Praise Luigi!';
+    }
+}
+.contentl p{
+    position: absolute;
+    color: #fff;
+    font-family: sans-serif;
+    width: 100%;
+    text-align: center;
+    top: 340;
+}
+button{
+    position: absolute;
+    height: 50;
+    width: 200;
+    background-color: rgb(80, 195, 80);
+    top: 400px;
+    left: 300px;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: rgb(54, 118, 54);
+}
+.background{
+    height: 100vh;
+    width: 100%;
+    background-color: green;
+}
+.image1{
+    position: absolute;
+    top: 80;
+    left: 170;
+}
+.image2{
+    position: absolute;
+    top: 230px;
+    left: 140;
+}
